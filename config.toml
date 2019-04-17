@@ -1,8 +1,6 @@
 baseurl = "https://no-ebs.github.io"
 languageCode = "en-US"
 title = "Home for noebs"
-# theme = "kiss"
-copyright = "&copy; <a href=\"https://github.com/ribice\">Emir Ribic</a> 2017"
 disqusShortname = "shortname"
 googleAnalytics = ""
 Paginate = 5 # Number of posts per page
