@@ -1,6 +1,6 @@
 baseurl = "https://no-ebs.github.io"
 languageCode = "en-US"
-title = "Home for noebs"
+title = "Home of noebs"
 disqusShortname = "shortname"
 googleAnalytics = ""
 Paginate = 5 # Number of posts per page
@@ -57,3 +57,4 @@ tag ="tags"
 
 [blackfriday]
 hrefTargetBlank = true
+sectionPagesMenu = "noebs_menu"
