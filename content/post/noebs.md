@@ -1,38 +1,43 @@
----
-date: 2019-04-17
-linktitle: "noebs: the most secure middleware"
-menu:
-  main:
-    parent: tutorials
-prev: /tutorials/mathjax
-title: "noebs: the most secure middleware"
-weight: 10
----
++++
+date = 2019-04-17
+linktitle = "noebs: the most secure middleware"
+excerpt = "We introduce noebs, a free open source payment gateway"
 
-# About this project
-This is an e-payment gateway system. It implements most of EBS's services with clear emphasis on scalabilty and a maintainable code. It is written in Go, a language for building high performant systems. It is also open source, the way any serious project should be. I wrote this software while I was learning Go, I tried to write an idiomatic Go as much as possible.
+tags =  [
+	"noebs",
+	 "electronic-payment",
+]
+prev = "/tutorials/mathjax"
+title = "noebs: the most secure middleware"
+weight = 10
++++
 
-It is open source and it will remain open source. I will also maintain it and I welcome any contributors help me doing that as well.
-_Our [blog post covers some other aspects about this project](https://medium.com/@adonese/noebs-a-free-and-open-source-payment-gateway-eb70c5dc26fb)_.
+We introduce noebs, a free open source payment gateway.
+# What is noebs
 
-# Why this project
-There are many reasons why I started this project. On one hand people can happily rely on EBS MCS webservices to run e.g., a POS. But this is not the goal of this project. I have a vision for the e-payment ecosystem in Sudan, way more beyond the 1SDG purchase fees.
-- a middleware for a many is major entry burden. Well, you have a free one now.
-- having a strong e-payment ecosystem will benefit all of us.
+It is definitely not a replacement for EBS, if anything we embrace the use of EBS and its role as a unified switching system. But, we aim to provide a thin wrapper around EBS functionalities that can be exposed to both POS and mobile applications. A starting point where you can write your business logic. It is free and open source built using Go. noebs encapsulates many of the things I learned while working with a full fledged payment gateway. It is very fast and robust and doesn’t get on your way while using it. The design of noebs makes it very simple for the developers to work with and extend it. It is not opinionated, we assume that the developers know better what their business needs and tailor noebs to their requirements. You can add as much of other middlewares as you wish; be it a logger, sms gateway or any other service. We highly encourage you to adapt this microservice architecture, where the whole application is layered on top of each other’s.
+
+## This project goals
+
+Provide a highly scalable payment gateway that can handles tens of thousands of concurrent requests. Currently, we are only interfacing with EBS, but we plan to cover other private switches as well. It is also open source meaning you can use for free! We don’t have any hidden subscription fees or anything. Totally free and open source.
+
+## Commercial plans
+
+We do have commercial plans. In fact, we can help you in every part of your electronic payment system. You can use our hosted middleware service without the need of hosting it yourself.
+
+- EBS simulator (you can use it in during your development phase)
+- We also have QA developers that can help you during your tests. They’re as lame and bureaucratic as EBS ones are
+- we can help you write your clients applications, whether they’re mobile, or POS
+- we can assist and help you plan for your business model
+
+For more details, contact us at mmbusif@gmail.com.
+
+## Why Go?
+
+Go is really fast! Our application can happily serve more than 60k req/sec. The bottleneck will never be on your payment gateway service! Plus, Go helps with many of the problems I faced while working with Python, the static typing can prevent your errors from occurring only at runtime, and your code will compile into a single binary that you just run. I’ve been very excited to write web services Go and this project offers me just that!
 
 # How to use noebs
 There are different ways to use noebs:
-## Building with go get command [not recommended]
-- make sure you have Go installed (Consult go website to see various ways to install go)[https://golang.org]
-- Then
-```shell
-# this command may likely takes along time depending on your internet connections.
-# also, make sure you are using a vpn since some of the libraries are hosted in GCE hosting which forbids Sudan
-$ go get github.com/adonese/noebs
-$ cd $GOPATH/github.com/adonese/noebs
-$ go build .
-```
-You will have a binary that after running it will spawn a production ready server!
 
 ## Building using Docker and docker-compose
 We provide an easier way to build and run noebs using Docker.
@@ -42,17 +47,30 @@ We provide an easier way to build and run noebs using Docker.
 - `docker run -it -p 8000:8000 noebs:latest`
 - Open `localhost:8000/test` in your broswer to interact with noebs
 
+
+## Building with go get command [not recommended]
+- make sure you have Go installed [Consult go website to see various ways to install go](https://golang.org)
+- Then
+```shell
+# this command may likely takes along time depending on your internet connections.
+# also, make sure you are using a vpn since some of the libraries are hosted in GCE hosting which forbids Sudan
+go get github.com/adonese/noebs
+cd $GOPATH/github.com/adonese/noebs
+go build .
+```
+You will have a binary that after running it will spawn a production ready server!
+
 ## Notes on installation
 noebs needs to be connected with EBS merchant server in order to get useful responses. *However, you can run our embedded server that mocks EBS responses in cases where you cannot reach EBS server*. To do that, you need to enable the development mode using a special env var, `EBS_LOCAL_DEV`. You need to set `EBS_LOCAL_DEV=1` in order to use the mocking functionality.
 
 - Using Docker
 ```shell
-`docker run -it -p 8000:8000 -e EBS_LOCAL_DEV=1 noebs:latest`
+docker run -it -p 8000:8000 -e EBS_LOCAL_DEV=1 noebs:latest
 ```
 
 - Using `go get` method
 ```shell
-$ export EBS_LOCAL_DEV=1 noebs
+export EBS_LOCAL_DEV=1 noebs
 ```
 
 # This project philosophy
@@ -69,7 +87,7 @@ All of these will be implemented in a microservice archiectural design pattern, 
 
 
 ## Services we offer
-`noebs` implements *ALL* of EBS merchant services. We are working to extend our support into other EBS services, e.g., consumer services, TITP, etc. However, those other services are not stable and some of them (consumer) are deem to deprecation.
+noebs implements *ALL* of EBS merchant services. We are working to extend our support into other EBS services, e.g., consumer services, TITP, etc. However, those other services are not stable and some of them (consumer) are deem to deprecation.
 
 If YOU are interested in other services, please reach out and we will be more than happy to discuss them with you.
 
@@ -88,16 +106,3 @@ Our team have developed an internal EBS QA test system that emulates EBS test en
 	- we can use our EBS simulator while we do the plan for you, the exact way EBS does. Bear in mind that our testers are highly competitive and they're all ex-EBSers.
 
 **We plan on releasing our simulator very soon. Stay tuned.**
-
-# FAQ
-- Why is the name?
-For no reason really. It is just the first name that came into my mind.
-- Why open source?
-Open source is nice! Yeey! We love open source.
-- Why Go?
-I was trying to learn it for awhile and I never get to actually do something useful with it. I've started this project with Python, using a framework called Sanic (very fast, Flask compatible microframework). Then I stumbled on the request validations issue:
-	- i either have to write my own validation schema
-	- or, just adapt another technology.
-I opted to the second one. Go is cool!
-- Commitment to this project?
-I'm very committed to this project.
