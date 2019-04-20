@@ -12,7 +12,7 @@ title = "noebs: the most secure middleware"
 weight = 10
 +++
 
-We introduce noebs, a free open source payment gateway.
+>API-first, high performant middleware. noebs is the most secure and modern middleware.
 # What is noebs
 
 It is definitely not a replacement for EBS, if anything we embrace the use of EBS and its role as a unified switching system. But, we aim to provide a thin wrapper around EBS functionalities that can be exposed to both POS and mobile applications. A starting point where you can write your business logic. It is free and open source built using Go. noebs encapsulates many of the things I learned while working with a full fledged payment gateway. It is very fast and robust and doesn’t get on your way while using it. The design of noebs makes it very simple for the developers to work with and extend it. It is not opinionated, we assume that the developers know better what their business needs and tailor noebs to their requirements. You can add as much of other middlewares as you wish; be it a logger, sms gateway or any other service. We highly encourage you to adapt this microservice architecture, where the whole application is layered on top of each other’s.
