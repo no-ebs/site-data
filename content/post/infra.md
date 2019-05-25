@@ -12,12 +12,15 @@ weight = 20
 url = "/infra"
 +++
 
+noebs supports interesting technologies that makes it the best in class solution. We support HTTP/2, server push (for live dashboard updates). It comes with Redis support and optional classical DB (you can use sqlite, mysql, and postgres). Resiliency and database distributions are first class citizen. When using proper setup, you can scale upto how your load balancer can handle. We use nginx as a reverse proxy and load balancer, and using this awesome setup we were able to scale to multiple servers without changing a single line of code in noebs.
+
 # Technology stack
 noebs is written in Go, with gin as a router. We experienced a lot of productivity boost while using Go and that encouraged us to adopt Go for our other backend projects.
 
 We use nginx as a reverse proxy to application server. nginx gives a nice separation of concerns; the application doesn't need to care about things like access log and security. This also helps our team to be more productive as now each task can be handled by different team members.
 
 In short, noebs uses these technologies:
+
 - is written in Go using gin framework
 - we use Gorm for its ORM features (but lots of queries are written in SQL)
 - we use sqlite3 as a persistent storage layer (database)
