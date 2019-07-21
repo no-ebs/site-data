@@ -1,4 +1,4 @@
-baseurl = "https://no-ebs.github.io"
+baseurl = "https://noebs.dev"
 languageCode = "en-US"
 title = "Home of noebs"
 disqusShortname = "shortname"
@@ -9,7 +9,7 @@ publishDir = "no-ebs.github.io"
 
 [params.rss] # Adding this tag enables RSS feed
 includeContent = true # Includes whole content in rss
-authorName = "Emir Ribic" # Author full name
+authorName = "Mohamed Yousif" # Author full name
 authorEmail = "ribice@gmail.com" # Author email
 
 [params.assets]
@@ -18,7 +18,7 @@ authorEmail = "ribice@gmail.com" # Author email
 [params.info]
 adsense = "" # Adsense ID (ID only, without ca-pub-)
 enableSocial = true # Adds OpenGraph and Twitter cards
-homeTitle = "" # Title for home page
+homeTitle = "noebs: it works!" # Title for home page
 poweredby = true # Adds powered by hugo and kiss below Copyright
 related = true # Includes related articles at the bottom of the article
 codeCopy = true # Add copy button above code blocks

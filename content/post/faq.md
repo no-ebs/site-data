@@ -10,7 +10,6 @@ tags =  [
      "faq",
      "ebs error"
 ]
-prev = "/tutorials/mathjax"
 title = "FAQ: your first support for any EBS issue"
 weight = 10
 +++
