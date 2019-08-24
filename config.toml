@@ -1,8 +1,6 @@
 baseurl = "https://noebs.dev"
 languageCode = "en-US"
 title = "Home of noebs"
-disqusShortname = "shortname"
-googleAnalytics = ""
 Paginate = 5 # Number of posts per page
 enableRobotsTXT = true
 publishDir = "deploy"
@@ -10,7 +8,7 @@ publishDir = "deploy"
 [params.rss] # Adding this tag enables RSS feed
 includeContent = true # Includes whole content in rss
 authorName = "Mohamed Yousif" # Author full name
-authorEmail = "ribice@gmail.com" # Author email
+authorEmail = "mmbusif@gmail.com" # Author email
 
 [params.assets]
 # customCSS = ["css/custom.css"]
@@ -22,7 +20,7 @@ homeTitle = "noebs: it works!" # Title for home page
 poweredby = true # Adds powered by hugo and kiss below Copyright
 related = true # Includes related articles at the bottom of the article
 codeCopy = true # Add copy button above code blocks
-
+Description = "Solus is an electronic service provider in Sudan."
 [params.features]
 disqusOnDemand = true  # Load Disqus comments on click
 
