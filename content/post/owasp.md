@@ -2,12 +2,14 @@
 date = 2019-08-23
 linktitle = "How are we tackling OWASP 10 at noebs"
 excerpt = "The Open Web Application Security Project, or OWASP, is an international non-profit organization dedicated to web application security. One of OWASP’s best-known project is the OWASP Top 10."
+title = "How are we addressing OWASP Top 10 at noebs"
 
 tags =  [
 	"noebs",
 	 "electronic-payment",
 	 "owasp",
-	 "security"
+	 "security",
+	 "payment-systems"
 ]
 url = "/owasp"
 +++
