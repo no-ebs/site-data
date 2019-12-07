@@ -3,6 +3,7 @@ date = 2019-08-23
 linktitle = "How are we tackling OWASP 10 at noebs"
 excerpt = "The Open Web Application Security Project, or OWASP, is an international non-profit organization dedicated to web application security. One of OWASP’s best-known project is the OWASP Top 10."
 title = "How are we addressing OWASP Top 10 at noebs"
+author = "Mohamed Yousif"
 
 tags =  [
 	"noebs",
@@ -52,6 +53,7 @@ Suppose that you have an HTML form that allows your users to write some notes ab
 </form>
 ```
 The user's form will be submitted __and__ rendered in a new page! Now this is very dangerous and it what leads to XSS security breaches. Let's see this in action. The next HTML page which will render the form result is like this:
+
 ```html
 <!-- skipping through HTML head -->
 <div>
@@ -87,11 +89,14 @@ Here are a few steps you can follow to be safe against these types of attacks:
 - Sanitize your users' inputs! In GO `template/html` library (the templating engine in GO, much like jinja2), it by default scapes HTML and JS tags
 - If your website is something is form-like, there are a few things you can adopt:
 	- let your users use markdown (it is safer)
-	- you can specify some HTML elements as safe (e.g., <p>, <a>), and escape the rest. In this case, you will allow your users to have rich text experience
+	- you can specify some HTML elements as safe (e.g., `<p>, <a>`), and escape the rest. In this case, you will allow your users to have rich text experience
 
 ## The solution to all of the above issues is very simple: USE A FRAMEWORK!
 
 The solution to all of the above issues is very simple, use a web framework! All of the modern web frameworks solves these rather naive secruity issues! I have worked with Python (Django and Flask and Starlette) and I've also worked with GO, all of them have built-in support for these common security issues! So, in practice, adapting *any* of modern web framework will save you from all of these issues, for free!
+
+## Modern security challenges
+TODO write about different pages for email entering and password entering
 
 ## Security Misconfigurations
 
