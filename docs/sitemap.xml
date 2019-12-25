@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://noebs.dev/design-notes/</loc>
+    <lastmod>2019-07-21T00:00:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://noebs.dev/post/pin_block/</loc>
+    <lastmod>2019-04-20T00:00:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://noebs.dev/faq/</loc>
+    <lastmod>2019-04-17T00:00:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://noebs.dev/post/noebs/</loc>
+    <lastmod>2019-04-17T00:00:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://noebs.dev/noebs_pro/</loc>
+    <lastmod>2019-04-27T00:00:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://noebs.dev/infra/</loc>
+    <lastmod>2019-04-27T00:00:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://noebs.dev/guides/use-noebs/</loc>
+    <lastmod>2019-04-21T00:00:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://noebs.dev/tags/electronic-payment/</loc>
+    <lastmod>2019-08-23T00:00:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://noebs.dev/</loc>
+    <lastmod>2019-08-23T00:00:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://noebs.dev/owasp/</loc>
+    <lastmod>2019-08-23T00:00:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://noebs.dev/tags/noebs/</loc>
+    <lastmod>2019-08-23T00:00:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://noebs.dev/tags/owasp/</loc>
+    <lastmod>2019-08-23T00:00:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://noebs.dev/tags/payment-systems/</loc>
+    <lastmod>2019-08-23T00:00:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://noebs.dev/post/</loc>
+    <lastmod>2019-08-23T00:00:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://noebs.dev/tags/security/</loc>
+    <lastmod>2019-08-23T00:00:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://noebs.dev/tags/</loc>
+    <lastmod>2019-08-23T00:00:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://noebs.dev/tags/faq/</loc>
+    <lastmod>2019-07-21T00:00:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://noebs.dev/errors/</loc>
+    <lastmod>2019-06-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://noebs.dev/tags/authentication/</loc>
+    <lastmod>2019-04-20T00:00:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://noebs.dev/tags/des/</loc>
+    <lastmod>2019-04-20T00:00:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://noebs.dev/tags/dukpt/</loc>
+    <lastmod>2019-04-20T00:00:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://noebs.dev/tags/ebs-error/</loc>
+    <lastmod>2019-04-20T00:00:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://noebs.dev/tags/pin-block/</loc>
+    <lastmod>2019-04-20T00:00:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://noebs.dev/about/</loc>
+    <lastmod>2014-04-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://noebs.dev/contact/</loc>
+  </url>
+  
+</urlset>

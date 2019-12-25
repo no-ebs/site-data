@@ -3,7 +3,7 @@ languageCode = "en-US"
 title = "Home of noebs"
 Paginate = 5 # Number of posts per page
 enableRobotsTXT = true
-publishDir = "deploy"
+publishDir = "docs"
 
 [params.rss] # Adding this tag enables RSS feed
 includeContent = true # Includes whole content in rss

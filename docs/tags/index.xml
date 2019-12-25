@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Home of noebs</title>
+    <link>https://noebs.dev/tags/</link>
+    <description>Recent content in Tags on Home of noebs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Fri, 23 Aug 2019 00:00:00 +0200</lastBuildDate>
+    
+	<atom:link href="https://noebs.dev/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>electronic-payment</title>
+      <link>https://noebs.dev/tags/electronic-payment/</link>
+      <pubDate>Fri, 23 Aug 2019 00:00:00 +0200</pubDate>
+      
+      <guid>https://noebs.dev/tags/electronic-payment/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>noebs</title>
+      <link>https://noebs.dev/tags/noebs/</link>
+      <pubDate>Fri, 23 Aug 2019 00:00:00 +0200</pubDate>
+      
+      <guid>https://noebs.dev/tags/noebs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>owasp</title>
+      <link>https://noebs.dev/tags/owasp/</link>
+      <pubDate>Fri, 23 Aug 2019 00:00:00 +0200</pubDate>
+      
+      <guid>https://noebs.dev/tags/owasp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>payment-systems</title>
+      <link>https://noebs.dev/tags/payment-systems/</link>
+      <pubDate>Fri, 23 Aug 2019 00:00:00 +0200</pubDate>
+      
+      <guid>https://noebs.dev/tags/payment-systems/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>security</title>
+      <link>https://noebs.dev/tags/security/</link>
+      <pubDate>Fri, 23 Aug 2019 00:00:00 +0200</pubDate>
+      
+      <guid>https://noebs.dev/tags/security/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>faq</title>
+      <link>https://noebs.dev/tags/faq/</link>
+      <pubDate>Sun, 21 Jul 2019 00:00:00 +0200</pubDate>
+      
+      <guid>https://noebs.dev/tags/faq/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>authentication</title>
+      <link>https://noebs.dev/tags/authentication/</link>
+      <pubDate>Sat, 20 Apr 2019 00:00:00 +0200</pubDate>
+      
+      <guid>https://noebs.dev/tags/authentication/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>des</title>
+      <link>https://noebs.dev/tags/des/</link>
+      <pubDate>Sat, 20 Apr 2019 00:00:00 +0200</pubDate>
+      
+      <guid>https://noebs.dev/tags/des/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>dukpt</title>
+      <link>https://noebs.dev/tags/dukpt/</link>
+      <pubDate>Sat, 20 Apr 2019 00:00:00 +0200</pubDate>
+      
+      <guid>https://noebs.dev/tags/dukpt/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ebs error</title>
+      <link>https://noebs.dev/tags/ebs-error/</link>
+      <pubDate>Sat, 20 Apr 2019 00:00:00 +0200</pubDate>
+      
+      <guid>https://noebs.dev/tags/ebs-error/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>pin block</title>
+      <link>https://noebs.dev/tags/pin-block/</link>
+      <pubDate>Sat, 20 Apr 2019 00:00:00 +0200</pubDate>
+      
+      <guid>https://noebs.dev/tags/pin-block/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

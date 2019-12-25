@@ -1,0 +1,473 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Home of noebs</title>
+    <link>https://noebs.dev/</link>
+    <description>Recent content on Home of noebs</description>
+    <generator>Hugo - gohugo.io</generator>
+    <language>en</language>
+    <contact>mmbusif@gmail.com</contact>
+    <copyright></copyright>
+    
+        <atom:link href="https://noebs.dev/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Posts</title>
+      <link>https://noebs.dev/post/</link>
+      <pubDate>Fri, 23 Aug 2019 00:00:00 +0200</pubDate>
+      <author>Mohamed Yousif</author>
+      <guid>https://noebs.dev/post/</guid>
+      <description></description>
+      
+      <content></content>
+      
+    </item>
+    
+    <item>
+      <title>errors</title>
+      <link>https://noebs.dev/errors/</link>
+      <pubDate>Tue, 25 Jun 2019 00:00:00 +0000</pubDate>
+      <author>Mohamed Yousif</author>
+      <guid>https://noebs.dev/errors/</guid>
+      <description></description>
+      
+      <content>&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Code&lt;/th&gt;
+&lt;th&gt;Description&lt;/th&gt;
+&lt;th&gt;Comments&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;000&lt;/td&gt;
+&lt;td&gt;Approval&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;103&lt;/td&gt;
+&lt;td&gt;Format Error&lt;/td&gt;
+&lt;td&gt;Invalid merchant or service provider&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;111&lt;/td&gt;
+&lt;td&gt;First possible transaction allowed by card must be PIN Change The card was used in a transaction, by its default PIN, While Change PIN should be done first.&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;130&lt;/td&gt;
+&lt;td&gt;Invalid format&lt;/td&gt;
+&lt;td&gt;The transaction has invalid message format. After the transaction authorization, the terminal or external host will declined the response&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;178&lt;/td&gt;
+&lt;td&gt;Original request not found&lt;/td&gt;
+&lt;td&gt;Returned if the voucher is not found for the particular phone number sent on the request of cash out voucher, the phone number entered isn’t the same as the one used to generate the voucher.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;158&lt;/td&gt;
+&lt;td&gt;Invalid processing code&lt;/td&gt;
+&lt;td&gt;1. The statement account has no information 2. The statement transaction request is disabled.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;161&lt;/td&gt;
+&lt;td&gt;Withdrawal limit exceeded&lt;/td&gt;
+&lt;td&gt;The transaction authorizer withdrawal limit is exceeded.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;191&lt;/td&gt;
+&lt;td&gt;Destination not available&lt;/td&gt;
+&lt;td&gt;The transaction destination (e.g. bank or biller) is unreachable, or didn&amp;rsquo;t respond during timeout period. In case of timeout with a biller, there is a chance that biller provided actual service to customer, so debited amount won’t be reversed.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;194&lt;/td&gt;
+&lt;td&gt;Duplicate transaction&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;196&lt;/td&gt;
+&lt;td&gt;System error&lt;/td&gt;
+&lt;td&gt;1. Unexpected error occurred in the system 2. Bad PIN block format&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;201&lt;/td&gt;
+&lt;td&gt;Contact Card Issuer&lt;/td&gt;
+&lt;td&gt;Contact your card issuer (Bank).&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;205&lt;/td&gt;
+&lt;td&gt;External decline&lt;/td&gt;
+&lt;td&gt;The external system, e.g. biller, has declined the transaction, usually because provided customer data are not accepted. E.g. wrong phone number for top-up transactions. Or e.g. Bank has declined the transaction, for: -Routing error -Ineligible account&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;251&lt;/td&gt;
+&lt;td&gt;Insufficient fund&lt;/td&gt;
+&lt;td&gt;Customer doesn&amp;rsquo;t have enough balance&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;281&lt;/td&gt;
+&lt;td&gt;Wrong customer information&lt;/td&gt;
+&lt;td&gt;Mostly used to indicate wrong customer payment info that is not accepted by the biller, or a missing parameter of the “PersonalPaymentInfo” field.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;338&lt;/td&gt;
+&lt;td&gt;PIN tries limit exceeded&lt;/td&gt;
+&lt;td&gt;Tries to enter PIN has been exceeded. Number of trials is bigger than the limit defined&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;355&lt;/td&gt;
+&lt;td&gt;Invalid PIN&lt;/td&gt;
+&lt;td&gt;1. PIN entered was wrong 2. Bad CVV&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;375&lt;/td&gt;
+&lt;td&gt;PIN Tries Limit Reached&lt;/td&gt;
+&lt;td&gt;Customer reached the max allowed number of wrong PIN entries&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;362&lt;/td&gt;
+&lt;td&gt;Encryption error&lt;/td&gt;
+&lt;td&gt;For future use, but its returned in case of invalid MAC (Message authentication code)&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;389&lt;/td&gt;
+&lt;td&gt;Invalid terminal ID&lt;/td&gt;
+&lt;td&gt;the terminal id is successfully configured in TWO but not in Merchant DB .or the protocol version in TWO is not the one used in POSs(currently used version is 0)&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;412&lt;/td&gt;
+&lt;td&gt;Invalid transaction&lt;/td&gt;
+&lt;td&gt;The transaction is not allowed for the profile of this customer&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;413&lt;/td&gt;
+&lt;td&gt;Merchant limit exceeded&lt;/td&gt;
+&lt;td&gt;Acquirer Limit is Exceeded&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;467&lt;/td&gt;
+&lt;td&gt;Invalid amount&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;514&lt;/td&gt;
+&lt;td&gt;Invalid track 2&lt;/td&gt;
+&lt;td&gt;Invalid card due to invalid track2&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;536&lt;/td&gt;
+&lt;td&gt;Restricted card&lt;/td&gt;
+&lt;td&gt;Card status is &amp;ldquo;Restricted&amp;rdquo;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;540&lt;/td&gt;
+&lt;td&gt;Transaction not supported&lt;/td&gt;
+&lt;td&gt;Transaction not supported by bank&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;541&lt;/td&gt;
+&lt;td&gt;Lost card&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;543&lt;/td&gt;
+&lt;td&gt;Stolen card&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;550&lt;/td&gt;
+&lt;td&gt;Closed card&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;552&lt;/td&gt;
+&lt;td&gt;Declared card&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;554&lt;/td&gt;
+&lt;td&gt;Expired card&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;465&lt;/td&gt;
+&lt;td&gt;Uses Limit Exceeded&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;600&lt;/td&gt;
+&lt;td&gt;Invalid client Id client Id field format was violated&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;601&lt;/td&gt;
+&lt;td&gt;Invalid Card Number Format&lt;/td&gt;
+&lt;td&gt;Card Number field format was violated&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;602&lt;/td&gt;
+&lt;td&gt;Invalid Expiry Date Format&lt;/td&gt;
+&lt;td&gt;Expiry Date field format was violated&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;603&lt;/td&gt;
+&lt;td&gt;Format Error&lt;/td&gt;
+&lt;td&gt;There is a missing parameter of the transaction request, or invalid request in general.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;604&lt;/td&gt;
+&lt;td&gt;Invalid Currency Code&lt;/td&gt;
+&lt;td&gt;Currency Code field format was violated&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;605&lt;/td&gt;
+&lt;td&gt;Invalid Account Format&lt;/td&gt;
+&lt;td&gt;Account field format was violated&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;606&lt;/td&gt;
+&lt;td&gt;Invalid System Trace Audit Number Format&lt;/td&gt;
+&lt;td&gt;System Trace Audit Number field format was violated&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;607&lt;/td&gt;
+&lt;td&gt;Invalid Personal Payment Information Format&lt;/td&gt;
+&lt;td&gt;Personal Payment Information field format was violated&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;608&lt;/td&gt;
+&lt;td&gt;Invalid Payee Identification&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;609&lt;/td&gt;
+&lt;td&gt;Invalid Phone Number Format&lt;/td&gt;
+&lt;td&gt;Phone Number field format was violated&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;610&lt;/td&gt;
+&lt;td&gt;Invalid voucher number Format&lt;/td&gt;
+&lt;td&gt;voucher number field format was violated&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;611&lt;/td&gt;
+&lt;td&gt;Invalid Transaction Date Format&lt;/td&gt;
+&lt;td&gt;Transaction Date field format was violated&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;615&lt;/td&gt;
+&lt;td&gt;Invalid Service Id&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;616&lt;/td&gt;
+&lt;td&gt;Invalid original transaction system trace audit number Format&lt;/td&gt;
+&lt;td&gt;original transaction system trace audit number field format was violated&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;617&lt;/td&gt;
+&lt;td&gt;MCS Time out&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;618&lt;/td&gt;
+&lt;td&gt;This service cannot be reversed&lt;/td&gt;
+&lt;td&gt;Service id cannot be reversed&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;619&lt;/td&gt;
+&lt;td&gt;Invalid Terminal Id Format&lt;/td&gt;
+&lt;td&gt;Terminal Id field format was violated&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;620&lt;/td&gt;
+&lt;td&gt;Invalid PIN Format&lt;/td&gt;
+&lt;td&gt;PIN field format was violated&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;621&lt;/td&gt;
+&lt;td&gt;Invalid Amount Format&lt;/td&gt;
+&lt;td&gt;Amount field format was violated&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;622&lt;/td&gt;
+&lt;td&gt;Invalid Cash Back&lt;/td&gt;
+&lt;td&gt;Amount Format  Cash Back Amount field format was violated&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;632&lt;/td&gt;
+&lt;td&gt;MCS Invalid Cash out Transaction due to Invalid voucher length&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;633&lt;/td&gt;
+&lt;td&gt;MCS invalid track2&lt;/td&gt;
+&lt;td&gt;track2 field format was violated&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;636&lt;/td&gt;
+&lt;td&gt;Invalid entityId&lt;/td&gt;
+&lt;td&gt;entityId  field format was violated&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;637&lt;/td&gt;
+&lt;td&gt;Invalid entityType&lt;/td&gt;
+&lt;td&gt;entityType  field format was violated&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;638&lt;/td&gt;
+&lt;td&gt;Invalid channelType&lt;/td&gt;
+&lt;td&gt;channelType  field format was violated&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;696&lt;/td&gt;
+&lt;td&gt;MCS System Error&lt;/td&gt;
+&lt;td&gt;Unexpected error in MCS -Merchant&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;300&lt;/td&gt;
+&lt;td&gt;Biller Declined Transaction&lt;/td&gt;
+&lt;td&gt;Biller Rejected Transaction – Check billerResponseCode for more clarification&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;301&lt;/td&gt;
+&lt;td&gt;Unresolved Transaction Due to Biller TimeOut&lt;/td&gt;
+&lt;td&gt;Transaction is under processing in biller side and timeout occurred between payment gateway and biller&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;302&lt;/td&gt;
+&lt;td&gt;Biller Destination is Unavailable or Unreachable&lt;/td&gt;
+&lt;td&gt;Biller is down or unreachable at the moment.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;303&lt;/td&gt;
+&lt;td&gt;Payment Declined Invalid Invoice&lt;/td&gt;
+&lt;td&gt;Invoice Number is Invalid&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;304&lt;/td&gt;
+&lt;td&gt;Payment Declined Wrong Add Data&lt;/td&gt;
+&lt;td&gt;Additional Data Submitted with Invoice are Invalid&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;305&lt;/td&gt;
+&lt;td&gt;Payment Declined Already Paid&lt;/td&gt;
+&lt;td&gt;Invoice is already paid&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;306&lt;/td&gt;
+&lt;td&gt;Payment Declined Wrong Amount&lt;/td&gt;
+&lt;td&gt;Invoice is declined due to wrong amount&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;641&lt;/td&gt;
+&lt;td&gt;Invalid Original STAN Format&lt;/td&gt;
+&lt;td&gt;Original STAN is in invalid format&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;642&lt;/td&gt;
+&lt;td&gt;Transaction Not Found&lt;/td&gt;
+&lt;td&gt;Original Transaction not found&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+</content>
+      
+    </item>
+    
+    <item>
+      <title>about</title>
+      <link>https://noebs.dev/about/</link>
+      <pubDate>Wed, 09 Apr 2014 00:00:00 +0000</pubDate>
+      <author>Mohamed Yousif</author>
+      <guid>https://noebs.dev/about/</guid>
+      <description>this is a description about about page meta</description>
+      
+      <content></content>
+      
+    </item>
+    
+    <item>
+      <title>contact</title>
+      <link>https://noebs.dev/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>Mohamed Yousif</author>
+      <guid>https://noebs.dev/contact/</guid>
+      <description></description>
+      
+      <content>
+
+&lt;h1 id=&#34;this-is-really-not-anything&#34;&gt;this is really not anything&lt;/h1&gt;
+</content>
+      
+    </item>
+    
+  </channel>
+</rss>
